@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emanuel Pastelería</title>
+    <!-- Vinculación del archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Enlace para los iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav>
+    <div class="logo">
+        <img src="images/logo.jpg" alt="Emanuel Pastelería Logo">
+    </div>
+    <div class="menu-hamburguesa" onclick="toggleMenu(this)">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <ul>
+        <li><a href="#quienes-somos">¿Quiénes somos?</a>
+            <ul>
+                <li><a href="#">Nuestra historia</a></li>
+                <li><a href="#">Nuestro equipo</a></li>
+            </ul>
+        </li>
+        <li><a href="#nuestros-productos">Nuestros productos</a>
+            <ul>
+                <li><a href="#">Tortas</a></li>
+                <li><a href="#">Postres</a></li>
+            </ul>
+        </li>
+        <li><a href="#contacto">Contáctanos</a></li>
+    </ul>
+</nav>
+
+<div class="banner">
+    <img src="images/cake1.png" class="active" alt="Imagen 1 Pastelería">
+    <img src="images/cake2.png" alt="Imagen 2 Pastelería">
+    <img src="images/cake3.png" alt="Imagen 3 Pastelería">
+    <img src="images/cake4.png" alt="Imagen 4 Pastelería">
+    <img src="images/cake5.png" alt="Imagen 5 Pastelería">
+</div>
+
+<div class="contenedores">
+    <div class="contenedor">
+        <div class="contenedor-principal">
+            <div class="columna columna-imagen">
+                <img src="images/cake6.png" alt="Torta personalizada">
+            </div>
+            <div class="columna columna-texto">
+                <h3>Emanuel Pastelería</h3>
+                <p>Somos un Emprendimiento Familiar. Horneamos productos bajos en azúcar, con ingredientes de calidad que adaptamos a las necesidades de nuestros clientes.</p>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor contenedor-imagen">
+        <img src="images/cake7.png" alt="Postre Artesanal">
+    </div>
+    <div class="contenedor">
+        <div class="contenedor-columnas">
+            <div class="contenedor-columna">
+                <img src="images/cake8.png" alt="Producto 1">
+                <h3>Pasteles</h3>
+                <p>Deliciosos pasteles, bajos en azúcar y perdonalizados para cualquier ocasión.</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="contenedor-columna">
+                <img src="images/cake9.png" alt="Producto 2">
+                <h3>Cupcakes</h3>
+                <p>Exquisitos cupcakes tradicionales y gourmet, con decoración y diseños personalizados.</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="contenedor-columna">
+                <img src="images/cake10.png" alt="Producto 3">
+                <h3>Dulces Detalles</h3>
+                <p>Hermosos empaques y decoraciones personalizadas para diferentes ocaciones.</p>
+                <a href="#">Ver más</a>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor">
+        <h3>Catering para Eventos</h3>
+        <p>Servicio completo para tus celebraciones, desde tortas hasta bocadillos.</p>
+    </div>
+    <div class="contenedor">
+        <h3>Promociones Especiales</h3>
+        <p>No te pierdas nuestras ofertas diarias y descuentos exclusivos.</p>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-column footer-logo">
+        <div class="logo-footer">
+            <img src="images/logo2.png" alt="Logo Emanuel Pastelería">
+        </div>
+    </div>
+    <div class="footer-column footer-info-social">
+        <div class="footer-info">
+            <p><strong>Emanuel Pastelería</strong></p>
+            <p><strong>Teléfono:</strong> +57 315 6161181</p>
+            <p><strong>Email:</strong> emanuelpasteleria@gmail.com</p>
+        </div>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+</footer>
+<div class="footer-bottom">
+    <p>© 2024 Emanuel Pastelería. Todos los derechos reservados.</p>
+</div>
+
+<!-- Enlace al archivo de funcionalidades -->
+<script src="scripts.js"></script>
+</body>
+</html>
